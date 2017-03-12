@@ -12,9 +12,17 @@
       ![Image of  Stamps](https://s12.postimg.org/dvv4tsq4t/Screenshot_7.png)
       ![Image of  Postcards](https://s12.postimg.org/ojyvsn03x/Screenshot_8.png)
  </details>
- 
+ <details>
+ <summary>Requirements</summary>
+ * Perl 5
+ * Apache/Nginx
+ * MySQL
+ * DBMS (Database Management Software)
+ * AS2 Mediaserver
+ </details>
  <details>
       <summary>List Of Modules</summary>
+* CPAN
 * YAML
 * Test
 * Method::Signatures
