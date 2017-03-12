@@ -1,7 +1,7 @@
 ## KINDLY NOTE THIS SOURCE IS STILL UNDER DEVELOPMENT AND I'M NOT LIABLE IF YOU USE IT FOR COMMERICIAL PURPOSES
 
-**List of Modules**
-
+ <details>
+      <summary>List Of Modules</summary>
 * YAML
 * Test
 * Method::Signatures
@@ -29,3 +29,4 @@
 * List::Util
 * HTML::Entities
 * List::MoreUtils
+</details>
