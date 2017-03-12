@@ -1,0 +1,7 @@
+<nitro>
+	<type>game</type>
+	<port>6113</port>
+	<server_name>Alpine</server_name>
+	<server_ip>25.60.59.233</server_ip>
+	<debug>1</debug>
+</nitro>
