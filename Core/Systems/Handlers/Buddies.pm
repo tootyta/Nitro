@@ -79,7 +79,14 @@ method handleBuddyFind($strData, $objClient) {
 		my $intBudID = $arrData[5];
 		return if (!looks_like_number($intBudID));
 		my $objPlayer = $objClient->getClientByID($intBudID);
-		$objClient->sendXT(['bf', '-1', $objPlayer->{penguin}->{room}->{id}]);
+		if ($objClient->getOnline($intID) == 1)
+		{
+			$objClient->sendXT(['bf', '-1', $objPlayer->{penguin}->{room}->{id}, $objClient->getOnline($intID)]);
+		}
+		else
+		{
+			$objClient->sendXT(['bf', '-1', '0']);
+	    	}
 }
 
 1;
